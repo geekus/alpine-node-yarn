@@ -7,6 +7,6 @@
 
 ##Want to change versions?
 
-```docker build --build-arg NODE_VERSION=6.9.2 --build-arg=YARN_VERSION=0.18.1 .```
+```docker build --build-arg NODE_VERSION=6.9.2-r1 --build-arg=YARN_VERSION=0.19.1 .```
 - [Available Node Versions](https://pkgs.alpinelinux.org/packages?name=nodejs&branch=v3.5)
 - [Avaialable Yarn Versions](https://github.com/yarnpkg/yarn/releases)
