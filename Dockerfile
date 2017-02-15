@@ -2,7 +2,7 @@ FROM alpine:3.5
 
 MAINTAINER ContainerShip Developers <developers@containership.io>
 
-ARG YARN_VERSION=0.19.1
+ARG YARN_VERSION=0.20.3
 ARG NODE_VERSION=6.9.2-r1
 
 ENV PATH /root/.yarn/bin:$PATH
